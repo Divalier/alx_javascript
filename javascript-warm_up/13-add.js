@@ -1,4 +1,2 @@
-let add = function (a,b){
-    let sum = a+b
-    console.log(sum);
-}
+const add = require('./13-add').add;
+console.log(add(a,b));
