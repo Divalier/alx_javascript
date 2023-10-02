@@ -14,5 +14,5 @@ req.get(url, (error, response, body) => {
       }
     });
   });
-  return char.length;
+  console.log(char.length);
 });
