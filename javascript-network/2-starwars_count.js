@@ -7,7 +7,6 @@ req.get(url, (error, response, body) => {
   const moviesres = movies.results;
   moviesres.forEach((element) => {
     // ch.push(element.characters)
-    // console.log(ch);
     element.characters.forEach((el) => {
       if (el.includes(id)) {
         char.push(el);
